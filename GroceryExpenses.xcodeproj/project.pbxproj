@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		183F9B7D24ED27E600F62F17 /* GroceryListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F9B7C24ED27E600F62F17 /* GroceryListModel.swift */; };
 		183F9B7F24ED309F00F62F17 /* GroceryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F9B7E24ED309F00F62F17 /* GroceryListTableViewCell.swift */; };
 		183F9B8324ED322A00F62F17 /* GroceryListConrtoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F9B8224ED322A00F62F17 /* GroceryListConrtoller.swift */; };
+		183F9B8524ED4A1100F62F17 /* AddList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183F9B8424ED4A1100F62F17 /* AddList.swift */; };
+		18BECE0824EE66C900602B48 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECE0724EE66C900602B48 /* ListModel.swift */; };
+		18BECE1024EE7F1900602B48 /* GroceryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECE0F24EE7F1900602B48 /* GroceryList.swift */; };
+		18BECE1924EEAC7300602B48 /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECE1824EEAC7300602B48 /* Budget.swift */; };
+		18BECE1C24EEAD0400602B48 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECE1B24EEAD0400602B48 /* ItemList.swift */; };
+		18BECE1E24EEADA500602B48 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECE1D24EEADA500602B48 /* Item.swift */; };
+		18BECE2024EEAE4200602B48 /* DBInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECE1F24EEAE4200602B48 /* DBInteractor.swift */; };
+		18BECE2224EEB05F00602B48 /* BudgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECE2124EEB05F00602B48 /* BudgetModel.swift */; };
+		18BECE2424EEB31C00602B48 /* BudgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECE2324EEB31C00602B48 /* BudgetViewModel.swift */; };
+		18BECE2624EEB72300602B48 /* userDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BECE2524EEB72300602B48 /* userDefaults.swift */; };
 		18EF0DEE24E92C7A00F97F03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF0DED24E92C7A00F97F03 /* AppDelegate.swift */; };
 		18EF0DF024E92C7A00F97F03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF0DEF24E92C7A00F97F03 /* SceneDelegate.swift */; };
 		18EF0DF224E92C7A00F97F03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF0DF124E92C7A00F97F03 /* ViewController.swift */; };
@@ -21,9 +30,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		183F9B7C24ED27E600F62F17 /* GroceryListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListModel.swift; sourceTree = "<group>"; };
 		183F9B7E24ED309F00F62F17 /* GroceryListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListTableViewCell.swift; sourceTree = "<group>"; };
 		183F9B8224ED322A00F62F17 /* GroceryListConrtoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListConrtoller.swift; sourceTree = "<group>"; };
+		183F9B8424ED4A1100F62F17 /* AddList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddList.swift; sourceTree = "<group>"; };
+		18BECE0724EE66C900602B48 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		18BECE0F24EE7F1900602B48 /* GroceryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryList.swift; sourceTree = "<group>"; };
+		18BECE1824EEAC7300602B48 /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		18BECE1B24EEAD0400602B48 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		18BECE1D24EEADA500602B48 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		18BECE1F24EEAE4200602B48 /* DBInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBInteractor.swift; sourceTree = "<group>"; };
+		18BECE2124EEB05F00602B48 /* BudgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetModel.swift; sourceTree = "<group>"; };
+		18BECE2324EEB31C00602B48 /* BudgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewModel.swift; sourceTree = "<group>"; };
+		18BECE2524EEB72300602B48 /* userDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userDefaults.swift; sourceTree = "<group>"; };
 		18EF0DEA24E92C7A00F97F03 /* GroceryExpenses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryExpenses.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EF0DED24E92C7A00F97F03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18EF0DEF24E92C7A00F97F03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,9 +80,40 @@
 		183F9B8124ED31FA00F62F17 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				183F9B7C24ED27E600F62F17 /* GroceryListModel.swift */,
+				18BECE1724EEAC5E00602B48 /* Realm */,
+				18BECE1F24EEAE4200602B48 /* DBInteractor.swift */,
+				18BECE2124EEB05F00602B48 /* BudgetModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		18BECE0924EE78B700602B48 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18BECE0F24EE7F1900602B48 /* GroceryList.swift */,
+				18BECE2324EEB31C00602B48 /* BudgetViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18BECE0A24EE78C800602B48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				183F9B8224ED322A00F62F17 /* GroceryListConrtoller.swift */,
+				183F9B8424ED4A1100F62F17 /* AddList.swift */,
+				18EF0DF124E92C7A00F97F03 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18BECE1724EEAC5E00602B48 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				18BECE1824EEAC7300602B48 /* Budget.swift */,
+				18BECE1B24EEAD0400602B48 /* ItemList.swift */,
+				18BECE1D24EEADA500602B48 /* Item.swift */,
+			);
+			path = Realm;
 			sourceTree = "<group>";
 		};
 		18EF0DE124E92C7A00F97F03 = {
@@ -90,9 +139,11 @@
 			children = (
 				18EF0DED24E92C7A00F97F03 /* AppDelegate.swift */,
 				18EF0DEF24E92C7A00F97F03 /* SceneDelegate.swift */,
-				183F9B8224ED322A00F62F17 /* GroceryListConrtoller.swift */,
+				18BECE0724EE66C900602B48 /* ListModel.swift */,
+				18BECE2524EEB72300602B48 /* userDefaults.swift */,
+				18BECE0A24EE78C800602B48 /* View */,
+				18BECE0924EE78B700602B48 /* ViewModel */,
 				183F9B8124ED31FA00F62F17 /* Model */,
-				18EF0DF124E92C7A00F97F03 /* ViewController.swift */,
 				18EF0DF324E92C7A00F97F03 /* Main.storyboard */,
 				18EF0DF624E92C7E00F97F03 /* Assets.xcassets */,
 				18EF0DF824E92C7E00F97F03 /* LaunchScreen.storyboard */,
@@ -234,12 +285,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BECE2424EEB31C00602B48 /* BudgetViewModel.swift in Sources */,
+				18BECE2024EEAE4200602B48 /* DBInteractor.swift in Sources */,
+				18BECE0824EE66C900602B48 /* ListModel.swift in Sources */,
 				18EF0DF224E92C7A00F97F03 /* ViewController.swift in Sources */,
+				18BECE2624EEB72300602B48 /* userDefaults.swift in Sources */,
+				18BECE1924EEAC7300602B48 /* Budget.swift in Sources */,
 				183F9B7F24ED309F00F62F17 /* GroceryListTableViewCell.swift in Sources */,
+				18BECE1E24EEADA500602B48 /* Item.swift in Sources */,
+				18BECE1024EE7F1900602B48 /* GroceryList.swift in Sources */,
 				18EF0E0224E9AEC100F97F03 /* TableViewCell.swift in Sources */,
 				183F9B8324ED322A00F62F17 /* GroceryListConrtoller.swift in Sources */,
 				18EF0DEE24E92C7A00F97F03 /* AppDelegate.swift in Sources */,
-				183F9B7D24ED27E600F62F17 /* GroceryListModel.swift in Sources */,
+				18BECE2224EEB05F00602B48 /* BudgetModel.swift in Sources */,
+				183F9B8524ED4A1100F62F17 /* AddList.swift in Sources */,
+				18BECE1C24EEAD0400602B48 /* ItemList.swift in Sources */,
 				18EF0DF024E92C7A00F97F03 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
